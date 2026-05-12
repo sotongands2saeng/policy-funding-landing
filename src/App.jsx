@@ -59,22 +59,22 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
-      <section className="w-full border-b border-slate-200 bg-slate-50">
-        <div className="mx-auto max-w-6xl px-6 py-24 text-center">
+      <section className="w-full border-b border-slate-100 bg-white">
+        <div className="mx-auto max-w-5xl px-6 py-32 text-center">
           <div className="flex justify-center">
             <img src={logo} alt="회사 로고" className="h-20 w-auto object-contain" />
           </div>
 
           <div className="mt-8 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-4 py-1 text-sm font-medium text-blue-800">
-            개인사업자 · 소상공인 정책자금 상담
+            개인사업자 · 소상공인 정부지원 정책자금 상담
           </div>
 
           <h1 className="mt-8 text-4xl font-bold leading-tight tracking-tight text-slate-900 md:text-6xl">
-            소상공인 정책자금,
+            정책자금,
             <br />
-            <span className="text-blue-900">신청부터 관리까지</span>
+            <span className="text-blue-900">신청부터 진행 관리까지</span>
             <br />
-            1:1 전담 지원
+            전문가 1:1 지원
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600">
@@ -87,7 +87,7 @@ export default function LandingPage() {
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="#consult-form" className="rounded-2xl bg-blue-900 px-8 py-4 text-base font-semibold text-white shadow-lg transition hover:scale-[1.02]">
-              무료 상담 신청하기
+              정책자금 무료 상담 신청
             </a>
 
             <div className="rounded-2xl border border-slate-300 bg-white px-6 py-4 text-sm text-slate-600 shadow-sm">
@@ -104,27 +104,27 @@ export default function LandingPage() {
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-3">
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <div className="text-4xl">💰</div>
-            <h3 className="mt-6 text-2xl font-bold text-slate-900">2~3%대 저금리 및 여유 있는 상환 구조 검토 가능</h3>
+          <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+            <div className="h-1 w-12 rounded-full bg-blue-900"></div>
+            <h3 className="mt-6 text-2xl font-bold text-slate-900">2~3%대 저금리와 여유 있는 상환</h3>
             <p className="mt-4 leading-relaxed text-slate-600">상대적으로 낮은 금리와 장기 분할상환 구조를 통해 사업 운영 부담 완화를 기대하는 사업자가 많습니다.</p>
           </div>
 
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <div className="text-4xl">📋</div>
+          <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+            <div className="h-1 w-12 rounded-full bg-blue-900"></div>
             <h3 className="mt-6 text-2xl font-bold text-slate-900">다양한 상황별 지원 제도</h3>
             <p className="mt-4 leading-relaxed text-slate-600">업종, 업력, 사업 상황 등에 따라 다양한 정책자금 검토가 가능합니다.</p>
           </div>
 
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-            <div className="text-4xl">🏢</div>
+          <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+            <div className="h-1 w-12 rounded-full bg-blue-900"></div>
             <h3 className="mt-6 text-2xl font-bold text-slate-900">운영 안정성 확보</h3>
             <p className="mt-4 leading-relaxed text-slate-600">운영자금, 시설자금, 대환 목적 등 사업 운영 안정화를 위해 활용됩니다.</p>
           </div>
         </div>
       </section>
 
-      <section className="bg-slate-50 py-24">
+      <section className="bg-white py-28">
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-slate-900 md:text-4xl">왜 저희와 함께 진행할까요?</h2>
@@ -132,20 +132,20 @@ export default function LandingPage() {
           </div>
 
           <div className="mt-16 grid gap-8 md:grid-cols-3">
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-              <div className="text-4xl">📌</div>
-              <h3 className="mt-6 text-2xl font-bold text-slate-900">전문가 1:1 전담 관리</h3>
+            <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+              <div className="h-1 w-12 rounded-full bg-slate-900"></div>
+              <h3 className="mt-6 text-2xl font-bold text-slate-900">전문 담당자 배정<br />1:1 책임 관리</h3>
               <p className="mt-4 leading-relaxed text-slate-600">상담부터 진행 과정까지 전담 담당자가 1:1로 끝까지 관리합니다.</p>
             </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-              <div className="text-4xl">🛠️</div>
+            <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+              <div className="h-1 w-12 rounded-full bg-slate-900"></div>
               <h3 className="mt-6 text-2xl font-bold text-slate-900">어려운 상황도 상담 가능</h3>
               <p className="mt-4 leading-relaxed text-slate-600">채무조정 등 일반적인 진행이 어려운 상황도 상담 가능합니다.</p>
             </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-              <div className="text-4xl">📊</div>
+            <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-[0_10px_40px_rgba\(15,23,42,0\.04\)]">
+              <div className="h-1 w-12 rounded-full bg-slate-900"></div>
               <h3 className="mt-6 text-2xl font-bold text-slate-900">맞춤형 진단 및 진행 지원</h3>
               <p className="mt-4 leading-relaxed text-slate-600">업종·업력·현재 상황 등을 바탕으로 사업 상황에 맞는 정책자금 방향을 검토하고 실제 진행까지 지원합니다.</p>
             </div>
@@ -245,7 +245,7 @@ export default function LandingPage() {
             </div>
 
             <button type="submit" disabled={isSubmitting || !privacyAgreed} className="w-full rounded-2xl bg-blue-900 px-6 py-5 text-lg font-semibold text-white shadow-lg transition hover:scale-[1.01] disabled:cursor-not-allowed disabled:opacity-60">
-              {isSubmitting ? '제출 중입니다...' : '무료 상담 신청하기'}
+              {isSubmitting ? '제출 중입니다...' : '정책자금 무료 상담 신청'}
             </button>
           </form>
 
@@ -276,7 +276,7 @@ export default function LandingPage() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-blue-100">
-            사업 상황에 맞는 방향을 함께 검토하고 진행 과정까지 전담 관리해드립니다.
+            사업 상황에 맞는 정책자금 방향을 함께 검토하고 진행 과정까지 전담 관리해드립니다.
           </p>
 
           <a href="#consult-form" className="mt-10 inline-flex rounded-2xl bg-white px-8 py-4 text-lg font-semibold text-blue-950 shadow-lg transition hover:scale-[1.02]">
